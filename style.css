@@ -259,7 +259,7 @@ button:hover {
 }
 
 .part4-item h2 {
-    font-size: 45px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 53px;
     color: #424242;
@@ -408,8 +408,11 @@ footer p {
     }
 
     .part4-item {
-        width: 250px;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+    .part4-item img{
+        width: 70px;
     }
     .mobile-about-us{
         padding: 20px;
