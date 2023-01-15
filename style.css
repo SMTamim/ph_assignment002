@@ -411,6 +411,9 @@ footer p {
         width: 250px;
         margin: 0 auto;
     }
+    .mobile-about-us{
+        padding: 20px;
+    }
     .sponsors{
         margin-top: 40px;
     }
