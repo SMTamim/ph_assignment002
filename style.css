@@ -73,6 +73,8 @@ header {
     line-height: 26px;
     color: #727272;
     margin-top: 20px;
+    width: 850px;
+    margin: 0 auto;
 }
 
 button {
@@ -338,6 +340,15 @@ footer p {
 /* Responsive Design */
 
 @media screen and (max-width:576px) {
+    header{
+        overflow: hidden;
+    }
+    .banner-p {
+        width: 100% ;
+        text-align: justify;
+        padding: 20px;
+    }
+
     .container {
         max-width: 100%;
         margin: 0 auto;
@@ -444,5 +455,6 @@ footer p {
     }
     footer p{
         text-align: center;
+        padding: 20px;
     }
 }
